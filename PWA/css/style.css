@@ -1,0 +1,574 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    background: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 20px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+
+
+.secc{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align:center;
+}
+
+.secc a{
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #3b3bc6;
+}
+
+.secc a:hover{
+    color: #5656df;
+    text-decoration: underline;
+}
+
+
+p.txt{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #0b0b16;
+    margin-top: 39px;
+    text-align:center;
+}
+
+
+h1.seccion-titulo {
+   font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #f5f5f7;
+    margin-top: 39px;
+    text-align:center;  
+} 
+
+
+.seccion {
+    padding: 100px 0;
+    background: #01012a;
+    color: #fff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align:center;
+}
+
+.seccion1 {
+    padding: 100px 0;
+    background: #ffffff;
+    color: #0b0b16;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align:center;
+}
+
+.seccion1 h2 {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+}
+
+.seccion1 p {
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+}
+
+.seccion1 img{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.seccion1 a{
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #3b3bc6;
+    text-align: center;
+}
+
+.seccion1 a:hover{
+    color: #5656df;
+    text-decoration: underline;
+}
+
+.seccion2 {
+    padding: 100px 0;
+    background: #ffffff;
+    color: #0b0b16;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align:center;
+}
+
+.seccion2 h1{
+    font-size: 48px;
+    color: rgb(145, 145, 145);
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 40px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.card-body{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.card:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+
+.seccion3 {
+    text-align:center;
+}
+
+.seccion3 h3{
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #ca7519;
+    margin-top: 39px;
+    text-align:center;
+}
+
+.seccion3 h1{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+}
+
+.seccion3 p{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+}
+
+.seccion3 a{
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+
+}
+
+.seccion3 a:hover{
+    text-decoration: underline;
+}
+
+.seccion4{
+    padding: 100px 0;
+    background: #000000;
+    color: #ffffff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align:center;
+}
+
+.seccion4 h3{
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #ca7519;
+    margin-top: 39px;
+    text-align:center;
+}
+
+.seccion4 h1{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #ffff;
+}
+
+.seccion4 p{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #ffff;
+}
+
+.seccion4 a{
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #ffff;
+}
+
+.seccion4 a:hover{
+    text-decoration: underline;
+}
+
+.seccion5 h2{
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background-color: #f5f5f7;
+    margin-bottom: 50px;
+    
+    text-align:center;
+}
+
+.seccion5 a{
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: rgb(19, 103, 187);
+}
+
+.seccion5 a:hover{
+    text-decoration: underline;
+}
+
+.seccion6{
+    padding: 100px 0;
+    background: #000000;
+    color: #ffffff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align:center;
+}
+
+.seccion6 h1{
+    color: #ffff;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align:center;
+}
+
+.seccion7 h3{
+    color: #ca7519;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align:center;
+}
+
+.seccion7 h2{
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background-color: #f5f5f7;
+    margin-bottom: 50px;
+    
+    text-align:center;
+}
+
+.seccion7 img{
+    width: 70%;
+    height: 90%;
+}
+
+.ipad{
+    position: absolute;
+    top: 1000px;
+    left: 300px;
+}
+
+.seccion8{
+    padding-top: 50px;
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    text-align:center;
+}
+
+.seccion8 h1{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #ffff;
+    text-align:center;
+}
+
+.seccion8 h3{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #ca7519;
+    text-align:center;
+}
+
+.seccion8 p{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #ffff;
+    text-align:center;
+}
+
+.seccion8 a{
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: rgb(35, 97, 204);
+}
+
+.seccion8 a:hover{
+    text-decoration: underline;
+}
+
+.seccion9{
+    padding: 100px 0;
+    background: #ffffff;
+    color: #000000;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align:center;
+}
+
+.seccion9 h1{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: rgb(0, 0, 0);
+    text-align:center;
+}
+
+.seccion9 h2{
+    font-size: 32px;
+    display: inline-block;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43);
+    will-change: transform;
+    padding-top: 0.5px;
+    overflow: hidden;
+    background-color: #2ca2b4 0%;
+    margin-top: 14px;
+}
+
+.seccion9 h3{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #ca7519;
+    text-align:center;
+}
+
+
+
+.seccion9 p{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: rgb(0, 0, 0);
+    text-align:center;
+}
+
+.seccion9 a{
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: rgb(35, 97, 204);
+}
+
+.seccion9 a:hover{
+    text-decoration: underline;
+}
+
+.seccion10{
+
+    background: #000000;
+    color: #ffffff;
+    display: block;
+  
+    text-align:center;
+}
+
+.seccion10 h1{
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    will-change: transform;
+    overflow: hidden;
+    background-color: #ffb6ff 0%;
+    margin-top: 16px;
+    text-align:center;
+}
+
+.seccion10 h3{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #ffffff;
+    text-align:center;
+}
+
+.seccion10 p{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #ffff;
+    text-align:center;
+}
+
+.seccion10 a{
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: rgb(35, 97, 204);
+}
+
+.seccion10 a:hover{
+    text-decoration: underline;
+}
+
+.nav-link{
+    margin-left: 150px;
+}
+
+
+@media screen and (max-width: 768px) {
+  
+iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    .ipad{
+        position: absolute;
+        top: 850px;
+        left: 10px;
+    }
+
+    .seccion8{
+        position: absolute;
+        top: 155vh;
+       
+        background: #000000;
+        color: #ffffff;
+      
+      
+        text-align:center;
+    }
+    
+}
+
